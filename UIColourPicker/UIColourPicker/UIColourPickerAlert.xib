@@ -29,7 +29,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="H1r-B0-Lu4">
-                    <rect key="frame" x="20" y="61" width="374" height="500"/>
+                    <rect key="frame" x="20" y="130" width="374" height="500"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C0i-Kt-kXV">
                             <rect key="frame" x="0.0" y="0.0" width="374" height="250"/>
@@ -140,11 +140,9 @@
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.44968639960000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="H1r-B0-Lu4" firstAttribute="top" relation="lessThanOrEqual" secondItem="KLv-u2-jBb" secondAttribute="top" constant="86" id="7GF-mI-LAe"/>
+                <constraint firstItem="H1r-B0-Lu4" firstAttribute="top" secondItem="KLv-u2-jBb" secondAttribute="top" constant="86" id="7GF-mI-LAe"/>
                 <constraint firstItem="H1r-B0-Lu4" firstAttribute="leading" secondItem="KLv-u2-jBb" secondAttribute="leading" constant="20" id="8q5-CK-gxl"/>
                 <constraint firstItem="KLv-u2-jBb" firstAttribute="trailing" secondItem="H1r-B0-Lu4" secondAttribute="trailing" constant="20" id="Etm-Az-qv3"/>
-                <constraint firstItem="H1r-B0-Lu4" firstAttribute="top" secondItem="KLv-u2-jBb" secondAttribute="top" constant="17" id="brx-rf-8xw"/>
-                <constraint firstItem="KLv-u2-jBb" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="H1r-B0-Lu4" secondAttribute="bottom" constant="82" id="q1I-2l-ItT"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="KLv-u2-jBb"/>
         </view>
