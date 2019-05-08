@@ -1,0 +1,11 @@
+framework module UIColourPicker {
+  umbrella header "UIColourPicker.h"
+
+  export *
+  module * { export * }
+}
+
+module UIColourPicker.Swift {
+    header "UIColourPicker-Swift.h"
+    requires objc
+}
